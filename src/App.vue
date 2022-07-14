@@ -1,5 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+// import TheNavbar from "./components/TheNavbar.vue";
+// import TheAlerts from "./components/TheAlerts.vue";
+// import TheDrawer from "./components/TheDrawer.vue";
+</script>
 
 <template>
-  <RouterView />
+  <TheNavbar />
+  <TheDrawer />
+  <TheAlerts />
 </template>
